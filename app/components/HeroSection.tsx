@@ -1,0 +1,81 @@
+"use client";
+
+import Image from "next/image";
+import { ChevronDown } from "lucide-react";
+
+interface HeroSectionProps {
+  onStart: () => void;
+}
+
+export default function HeroSection({ onStart }: HeroSectionProps) {
+  return (
+    <section className="relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-600 to-sky-500 text-white">
+      {/* Decorative background pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern
+              id="hero-pattern"
+              x="0"
+              y="0"
+              width="60"
+              height="60"
+              patternUnits="userSpaceOnUse"
+            >
+              <circle cx="30" cy="30" r="2" fill="currentColor" />
+              <path
+                d="M0 30 Q15 20 30 30 Q45 40 60 30"
+                stroke="currentColor"
+                strokeWidth="0.5"
+                fill="none"
+              />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hero-pattern)" />
+        </svg>
+      </div>
+
+      <div className="relative mx-auto max-w-4xl px-4 py-8 text-center sm:px-6 sm:py-10">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium backdrop-blur-sm sm:text-sm">
+          <Image
+            src="/images/logo-crpao.png"
+            alt="อบจ.เชียงราย"
+            width={24}
+            height={24}
+            className="rounded-full"
+          />
+          <span>องค์การบริหารส่วนจังหวัดเชียงราย</span>
+        </div>
+
+        <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
+          ประชาพิจารณ์:
+          <span className="text-sky-200"> ร่างประกาศการงดเก็บภาษีน้ำมัน</span>
+          <br />
+          เพื่อชาวเชียงราย
+        </h1>
+
+        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-blue-100 sm:text-base">
+          ร่วมแสดงความคิดเห็นเพื่อเป็นส่วนหนึ่งในการกำหนดนโยบาย
+          การงดจัดเก็บภาษีน้ำมันในจังหวัดเชียงราย
+        </p>
+
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-xs text-blue-200 sm:text-sm">
+          <span className="rounded-full bg-white/10 px-3 py-1">
+            📅 3 – 5 เมษายน 2569
+          </span>
+          <span className="rounded-full bg-white/10 px-3 py-1">
+            ⏱️ ใช้เวลาเพียง 2 นาที
+          </span>
+        </div>
+
+        <button
+          onClick={onStart}
+          className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-base font-semibold text-blue-700 shadow-lg transition-all hover:scale-105 hover:bg-blue-50 hover:shadow-xl active:scale-100 sm:px-8 sm:py-3.5 sm:text-lg"
+        >
+          เริ่มทำแบบสอบถาม
+          <ChevronDown className="h-5 w-5 animate-bounce" />
+        </button>
+      </div>
+    </section>
+  );
+}
