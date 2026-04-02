@@ -58,7 +58,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
               <div className="absolute -inset-2 rounded-full bg-blue-500/20 blur-md" />
               <div className="relative flex h-20 w-20 items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-sm">
                 <Image
-                  src="/images/logo-crpao.png"
+                  src="/crpao-poll/images/logo-crpao.png"
                   alt="อบจ.เชียงราย"
                   width={56}
                   height={56}

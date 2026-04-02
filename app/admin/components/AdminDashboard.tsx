@@ -188,7 +188,7 @@ export default function AdminDashboard() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo-crpao.png"
+              src="/crpao-poll/images/logo-crpao.png"
               alt="อบจ.เชียงราย"
               width={36}
               height={36}
@@ -234,7 +234,7 @@ export default function AdminDashboard() {
         {/* Print header - show only in print */}
         <div className="mb-6 hidden items-center gap-4 print:flex">
           <Image
-            src="/images/logo-crpao.png"
+            src="/crpao-poll/images/logo-crpao.png"
             alt="อบจ.เชียงราย"
             width={60}
             height={60}
