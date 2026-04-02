@@ -38,7 +38,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
       <div className="relative mx-auto max-w-4xl px-4 py-8 text-center sm:px-6 sm:py-10">
         <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium backdrop-blur-sm sm:text-sm">
           <Image
-            src="/images/logo-crpao.png"
+            src="/crpao-poll/images/logo-crpao.png"
             alt="อบจ.เชียงราย"
             width={24}
             height={24}
