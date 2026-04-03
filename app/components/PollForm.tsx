@@ -233,7 +233,7 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
         <div className="space-y-6 rounded-2xl bg-white p-6 shadow-lg shadow-blue-900/5 ring-1 ring-gray-100 sm:p-8">
           <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-800">
             <Users className="h-5 w-5 text-blue-600" />
-            แบบสอบถามประชาพิจารณ์
+            แบบสอบถาม
           </h2>
 
           <div>
@@ -380,10 +380,9 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
 
           <div>
             <p className="mb-1 text-sm font-medium text-gray-700">
-              ท่านเห็นด้วยหรือไม่กับร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมันในเขตจังหวัดเชียงราย?
-            </p>
-            <p className="mb-4 text-xs text-gray-500">
-              เพื่อบรรเทาภาระค่าครองชีพด้านพลังงานให้แก่ประชาชน
+              ท่านเห็นด้วยหรือไม่กับประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง รับฟังความคิดเห็นของประชาชนเกี่ยวกับ ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย 
+ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569
+?
             </p>
 
             <div className="grid grid-cols-2 gap-3">
@@ -486,11 +485,13 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
           </h2>
           <p className="mt-4 leading-relaxed text-gray-600">
             องค์การบริหารส่วนจังหวัดเชียงราย ขอขอบคุณท่านเป็นอย่างยิ่ง
-            ที่สละเวลาร่วมแสดงความคิดเห็นในการประชาพิจารณ์ครั้งนี้
+            ที่สละเวลาร่วมแสดงความคิดเห็นในการตอบแบบสอบถามครั้งนี้
           </p>
           <p className="mt-3 leading-relaxed text-gray-600">
             ความคิดเห็นของท่านจะถูกนำไปประกอบการพิจารณา
-            <strong>ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมัน</strong>
+            <strong>ประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง รับฟังความคิดเห็นของประชาชนเกี่ยวกับ ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย 
+ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569
+</strong>
             เพื่อให้เกิดประโยชน์สูงสุดแก่ประชาชนชาวเชียงราย
           </p>
           <div className="mt-6 space-y-2 rounded-xl bg-green-50 px-4 py-4 text-sm text-green-700">
