@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useCallback } from "react";
 import {
@@ -49,7 +49,7 @@ const STEPS = [
 
 function Stepper({ step }: { step: number }) {
   return (
-    <div className="mx-auto mb-8 flex max-w-md items-center justify-center">
+    <div className="mx-auto mt-5 mb-8 flex max-w-md items-center justify-center">
       {STEPS.map((s, i) => {
         const done = i < step;
         const active = i === step;
@@ -201,7 +201,7 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
                     อ่านร่างประกาศฉบับเต็ม
                   </h3>
                   <p className="mt-1 text-xs text-amber-700/80">
-                    กรุณาศึกษาร่างประกาศ อบจ.เชียงราย ก่อนแสดงความคิดเห็น
+                    สามารถศึกษา <strong>ร่าง</strong>ประกาศองค์การบริหารส่วนจังหวัดเชียงราย  เพื่อแสดงความคิดเห็น ได้ตามลิงก์ด้านล่างนี้
                   </p>
                   <a
                     href={DRAFT_ANNOUNCEMENT_URL}
@@ -379,7 +379,7 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
 
           <div>
             <p className="mb-1 text-sm font-medium text-gray-700">
-              ท่านเห็นด้วยหรือไม่กับร่างประกาศ อบจ.เชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมันในเขตจังหวัดเชียงราย?
+              ท่านเห็นด้วยหรือไม่กับร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมันในเขตจังหวัดเชียงราย?
             </p>
             <p className="mb-4 text-xs text-gray-500">
               เพื่อบรรเทาภาระค่าครองชีพด้านพลังงานให้แก่ประชาชน
@@ -489,7 +489,7 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
           </p>
           <p className="mt-3 leading-relaxed text-gray-600">
             ความคิดเห็นของท่านจะถูกนำไปประกอบการพิจารณา
-            <strong>ร่างประกาศ อบจ.เชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมัน</strong>
+            <strong>ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมัน</strong>
             เพื่อให้เกิดประโยชน์สูงสุดแก่ประชาชนชาวเชียงราย
           </p>
           <div className="mt-6 space-y-2 rounded-xl bg-green-50 px-4 py-4 text-sm text-green-700">

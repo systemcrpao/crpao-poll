@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ประชาพิจารณ์: การงดเก็บภาษีน้ำมันเพื่อชาวเชียงราย",
+  title: "ประชาพิจารณ์ : รับฟังความคิดเห็น",
   description:
     "ร่วมแสดงความคิดเห็นต่อนโยบายการงดจัดเก็บภาษีน้ำมันในจังหวัดเชียงราย ระหว่างวันที่ 3-5 เมษายน 2569",
+  icons: {
+    icon: "/images/logo-crpao.png",
+  },
 };
 
 export default function RootLayout({

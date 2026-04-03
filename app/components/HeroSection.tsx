@@ -35,8 +35,8 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
         </svg>
       </div>
 
-      <div className="relative mx-auto max-w-4xl px-4 py-8 text-center sm:px-6 sm:py-10">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium backdrop-blur-sm sm:text-sm">
+      <div className="relative mx-auto max-w-4xl px-4 py-6 text-center sm:px-6 sm:py-8">
+        <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium backdrop-blur-sm sm:text-sm">
           <Image
             src="/crpao-poll/images/logo-crpao.png"
             alt="อบจ.เชียงราย"
@@ -54,12 +54,12 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
           เพื่อชาวเชียงราย
         </h1>
 
-        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-blue-100 sm:text-base">
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:text-base">
           ร่วมแสดงความคิดเห็นเพื่อเป็นส่วนหนึ่งในการกำหนดนโยบาย
           การงดจัดเก็บภาษีน้ำมันในจังหวัดเชียงราย
         </p>
 
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-xs text-blue-200 sm:text-sm">
+        <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-xs text-blue-200 sm:text-sm">
           <span className="rounded-full bg-white/10 px-3 py-1">
             📅 3 – 5 เมษายน 2569
           </span>
@@ -70,7 +70,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
 
         <button
           onClick={onStart}
-          className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-base font-semibold text-blue-700 shadow-lg transition-all hover:scale-105 hover:bg-blue-50 hover:shadow-xl active:scale-100 sm:px-8 sm:py-3.5 sm:text-lg"
+          className="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-base font-semibold text-blue-700 shadow-lg transition-all hover:scale-105 hover:bg-blue-50 hover:shadow-xl active:scale-100 sm:px-8 sm:py-3.5 sm:text-lg"
         >
           เริ่มทำแบบสอบถาม
           <ChevronDown className="h-5 w-5 animate-bounce" />
