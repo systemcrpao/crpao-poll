@@ -48,8 +48,8 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
         </div>
 
         <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
-          ประชาพิจารณ์:
-          <span className="text-sky-200"> ร่างประกาศการงดเก็บภาษีน้ำมัน</span>
+          ประชาพิจารณ์ <br />
+          <span className="text-fuchsia-500"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมัน</span>
           <br />
           เพื่อชาวเชียงราย
         </h1>
