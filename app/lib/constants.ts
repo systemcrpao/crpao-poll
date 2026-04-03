@@ -55,4 +55,4 @@ export const SURVEY_START = new Date("2026-04-03T00:00:00+07:00");
 export const SURVEY_END = new Date("2026-04-05T23:59:59+07:00");
 
 // ลิงก์ร่างประกาศ (เตรียม URL ไว้ เมื่อมีไฟล์จริงให้เปลี่ยนที่นี่)
-export const DRAFT_ANNOUNCEMENT_URL = "https://www.chiangraipao.go.th/files/com_news_public/2025-03_8052a258be28a89.pdf";
+export const DRAFT_ANNOUNCEMENT_URL = "https://www.chiangraipao.go.th/files/com_news_public/2026-04_ebb9ef6670b743a.pdf";
