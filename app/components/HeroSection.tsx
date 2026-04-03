@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ onStart }: HeroSectionProps) {
   return (
-    <section className="relative overflow-hidden bg-linear-to-br from-blue-500 via-blue-400 to-sky-300 text-white">
+    <section className="relative overflow-hidden bg-linear-to-br from-blue-600 via-blue-500 to-sky-400 text-white">
       {/* Decorative background pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
 
         <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
           ประชาพิจารณ์ <br />
-          <span className="text-shadow-pink-600"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
+          <span className="text-fuchsia-600"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
           <br />
           เรื่อง การงดจัดเก็บภาษีน้ำมัน</span>
           <br />
