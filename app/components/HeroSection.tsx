@@ -48,17 +48,16 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
         </div>
 
         <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
-          ประชาพิจารณ์ <br />
-          <span className="text-pink-300"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
+          รับฟังความคิดเห็น <br />
+          <span className="text-pink-300"> ประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
           <br />
-          เรื่อง การงดจัดเก็บภาษีน้ำมัน</span>
-          <br />
-          เพื่อชาวเชียงราย
+          เรื่อง รับฟังความคิดเห็นของประชาชนเกี่ยวกับ ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย <br />
+ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569
+</span>
         </h1>
 
         <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:text-base">
-          ร่วมแสดงความคิดเห็นเพื่อเป็นส่วนหนึ่งในการกำหนดนโยบาย
-          การงดจัดเก็บภาษีน้ำมันในจังหวัดเชียงราย
+          ร่วมแสดงความคิดเห็นเพื่อเป็นส่วนหนึ่งในการร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569
         </p>
 
         <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-xs text-blue-200 sm:text-sm">

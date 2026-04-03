@@ -157,10 +157,12 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
               <FileText className="mt-0.5 h-6 w-6 shrink-0 text-blue-600" />
               <div>
                 <h2 className="text-lg font-semibold text-gray-800">
-                  ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย
+                  ประกาศองค์การบริหารส่วนจังหวัดเชียงราย
                 </h2>
                 <p className="text-sm font-medium text-blue-600">
-                  เรื่อง การงดจัดเก็บภาษีน้ำมันในเขตจังหวัดเชียงราย
+                  เรื่อง รับฟังความคิดเห็นของประชาชนเกี่ยวกับ ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย 
+ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569
+
                 </p>
               </div>
             </div>
@@ -168,9 +170,9 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
             <div className="space-y-3 rounded-xl bg-blue-50/70 px-4 py-4 text-sm leading-relaxed text-gray-700">
               <p>
                 องค์การบริหารส่วนจังหวัดเชียงราย (อบจ.เชียงราย)
-                ได้จัดทำ<strong>ประชาพิจารณ์</strong>เพื่อรับฟังความคิดเห็นของประชาชน
-                ตาม<strong>ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย เรื่อง การงดจัดเก็บภาษีน้ำมัน</strong>ในเขตจังหวัดเชียงราย
-                ซึ่งมีวัตถุประสงค์เพื่อบรรเทาภาระค่าครองชีพด้านพลังงานให้แก่ประชาชนในพื้นที่
+                ได้จัดทำแบบสอบถามเพื่อรับฟังความคิดเห็นของประชาชน
+                ตาม<strong>ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569</strong>
+                ซึ่งมีวัตถุประสงค์ 
               </p>
               <div className="flex items-center gap-2 font-medium text-blue-700">
                 <CalendarClock className="h-4 w-4" />
@@ -198,10 +200,10 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="text-sm font-semibold text-amber-900">
-                    อ่านร่างประกาศฉบับเต็ม
+                    อ่านประกาศ
                   </h3>
                   <p className="mt-1 text-xs text-amber-700/80">
-                    สามารถศึกษา <strong>ร่าง</strong>ประกาศองค์การบริหารส่วนจังหวัดเชียงราย  เพื่อแสดงความคิดเห็น ได้ตามลิงก์ด้านล่างนี้
+                    สามารถศึกษา ประกาศองค์การบริหารส่วนจังหวัดเชียงราย เพื่อแสดงความคิดเห็น ได้ตามลิงก์ด้านล่างนี้
                   </p>
                   <a
                     href={DRAFT_ANNOUNCEMENT_URL}
@@ -210,7 +212,7 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
                     className="mt-3 inline-flex items-center gap-2 rounded-lg bg-amber-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-amber-700"
                   >
                     <ExternalLink className="h-4 w-4" />
-                    เปิดอ่านร่างประกาศ
+                    เปิดอ่านประกาศ
                   </a>
                 </div>
               </div>
