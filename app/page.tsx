@@ -5,7 +5,6 @@ import HeroSection from "@/app/components/HeroSection";
 import PollForm from "@/app/components/PollForm";
 import type { FormData } from "@/app/components/PollForm";
 import AlreadySubmitted from "@/app/components/AlreadySubmitted";
-import SuccessScreen from "@/app/components/SuccessScreen";
 import Footer from "@/app/components/Footer";
 import { COOLDOWN_MS, STORAGE_KEY, SURVEY_END } from "@/app/lib/constants";
 import { supabase } from "@/app/lib/supabase";
@@ -13,7 +12,6 @@ import { supabase } from "@/app/lib/supabase";
 export default function Home() {
   const formRef = useRef<HTMLDivElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
   const [cooldownActive, setCooldownActive] = useState(false);
   const [submitError, setSubmitError] = useState(false);
   const [surveyExpired, setSurveyExpired] = useState(
@@ -61,7 +59,7 @@ export default function Home() {
     scrollToForm();
   };
 
-  const handleSubmit = async (data: FormData) => {
+  const handleSubmit = async (data: FormData): Promise<boolean> => {
     setIsSubmitting(true);
     setSubmitError(false);
 
@@ -77,13 +75,12 @@ export default function Home() {
       console.error("Supabase insert error:", error);
       setSubmitError(true);
       setIsSubmitting(false);
-      return;
+      return false;
     }
 
     localStorage.setItem(STORAGE_KEY, String(Date.now()));
     setIsSubmitting(false);
-    setSubmitted(true);
-    scrollToForm();
+    return true;
   };
 
   return (
@@ -107,10 +104,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-        ) : cooldownActive && !submitted ? (
+        ) : cooldownActive ? (
           <AlreadySubmitted />
-        ) : submitted ? (
-          <SuccessScreen />
         ) : (
           <>
             {submitError && (
