@@ -49,7 +49,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
 
         <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
           ประชาพิจารณ์ <br />
-          <span className="text-pink-700"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
+          <span className="text-pink-300"> ร่างประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
           <br />
           เรื่อง การงดจัดเก็บภาษีน้ำมัน</span>
           <br />
