@@ -172,7 +172,6 @@ export default function PollForm({ onSubmit, isSubmitting }: PollFormProps) {
                 องค์การบริหารส่วนจังหวัดเชียงราย (อบจ.เชียงราย)
                 ได้จัดทำแบบสอบถามเพื่อรับฟังความคิดเห็นของประชาชน
                 ตาม<strong>ร่างข้อบัญญัติองค์การบริหารส่วนจังหวัดเชียงราย ว่าด้วยเรื่อง การเก็บภาษีบำรุงองค์การบริหารส่วนจังหวัด พ.ศ. 2555 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2569</strong>
-                ซึ่งมีวัตถุประสงค์ 
               </p>
               <div className="flex items-center gap-2 font-medium text-blue-700">
                 <CalendarClock className="h-4 w-4" />
