@@ -47,7 +47,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
           <span>องค์การบริหารส่วนจังหวัดเชียงราย</span>
         </div>
 
-        <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
+        <h1 className="text-lg font-bold leading-tight tracking-tight sm:text-2xl md:text-3xl">
           รับฟังความคิดเห็น <br />
           <span className="text-pink-300"> ประกาศองค์การบริหารส่วนจังหวัดเชียงราย 
           <br />
