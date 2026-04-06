@@ -244,7 +244,7 @@ export default function AdminDashboard() {
           />
           <div>
             <h1 className="text-xl font-bold text-gray-800">
-              รายงานผลประชาพิจารณ์: การงดจัดเก็บภาษีน้ำมัน จ.เชียงราย
+              รายงานผลรับฟังความคิดเห็นของประชาชน
             </h1>
             <p className="text-sm text-gray-500">
               ระยะเวลาสำรวจ: 3 – 5 เมษายน 2569 | พิมพ์เมื่อ:{" "}
